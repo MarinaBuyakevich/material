@@ -2,9 +2,9 @@ import {Component, ViewChild} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
 
-/**
-  @title Button varieties
- */
+// /**
+//   @title Button varieties
+//  */
 
 export interface UserData {
   id: string;
