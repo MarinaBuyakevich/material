@@ -46,18 +46,17 @@ mat-slider {
 .example-ripple-container {
   cursor: pointer;
   text-align: center;
-
   width: 300px;
   height: 300px;
   line-height: 300px;
-
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-
   -webkit-user-drag: none;
   -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  margin: 20px;
 }
 
 
