@@ -40,6 +40,11 @@ export class ButtonTypesExample {
   radius: number;
   color: string;
 
+  checked = false;
+  indeterminate = false;
+  labelPosition = 'after';
+
+
   displayedColumns: string[] = ['id', 'name', 'progress', 'color'];
   dataSource: MatTableDataSource<UserData>;
 
