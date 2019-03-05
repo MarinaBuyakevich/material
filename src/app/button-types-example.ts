@@ -29,7 +29,7 @@ const NAMES: string[] = ['Maia', 'Asher', 'Olivia', 'Atticus', 'Amelia', 'Jack',
 export class ButtonTypesExample {
   // color = 'primary';
   mode = 'determinate';
-  value = 50;
+  value = 75;
   isLinear = false;
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
