@@ -44,6 +44,7 @@ export class ButtonTypesExample {
   indeterminate = false;
   labelPosition = 'after';
 
+  showFiller = false;
 
   displayedColumns: string[] = ['id', 'name', 'progress', 'color'];
   dataSource: MatTableDataSource<UserData>;
